@@ -31,7 +31,7 @@ public class PersonalInfoController {
   }
 
   @PostMapping("/personal-info")
-  public PersonalInfo createUser(@RequestBody PersonalInfo personalInfo) {
+  public PersonalInfo create(@RequestBody PersonalInfo personalInfo) {
     return personalInfoService.create(personalInfo);
   }
 

@@ -31,7 +31,7 @@ public class ResumeController {
   }
 
   @PostMapping("/resumes")
-  public Resume createUser(@RequestBody Resume resume) {
+  public Resume create(@RequestBody Resume resume) {
     return resumeService.create(resume);
   }
 
